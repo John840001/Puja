@@ -21,7 +21,7 @@ export default function Home({ setScreen }: HomeProps) {
         ))}
       </div>
       <div className="photo-slot">
-        <img src="public\images\image.png" alt="Puja and Jonathan" />
+        <img src="/images/image.png" alt="Puja and Jonathan" />
       </div>
     </div>
   );
