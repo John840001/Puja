@@ -47,8 +47,34 @@ export interface GameCard {
 }
 
 export const GAMES: GameCard[] = [
-  { id: "memory", icon: "🧠", title: "Memory Match", desc: "Match our favorite little things." },
-  { id: "wheel", icon: "🎡", title: "Date Night Wheel", desc: "Spin for tonight's plan." },
-  { id: "scratch", icon: "✨", title: "Scratch & Reveal", desc: "Scratch off a tiny secret note." },
-  { id: "letter", icon: "💌", title: "Your Letter", desc: "Something I wrote just for you." },
+  {
+    id: "memory",
+    icon: "🧠",
+    title: "Memory Match",
+    desc: "Match our favorite little things.",
+  },
+  {
+    id: "wheel",
+    icon: "🎡",
+    title: "Date Night Wheel",
+    desc: "Spin for tonight's plan.",
+  },
+  {
+    id: "scratch",
+    icon: "✨",
+    title: "Scratch & Reveal",
+    desc: "Scratch off a tiny secret note.",
+  },
+  {
+    id: "letter",
+    icon: "💌",
+    title: "Your Letter",
+    desc: "Something I wrote just for you.",
+  },
+  {
+    id: "letters",
+    icon: "📮",
+    title: "Love Letters",
+    desc: "A shared collection, saved just for us.",
+  },
 ];

@@ -7,6 +7,7 @@ import WheelGame from "./components/WheelGame";
 import ScratchGame from "./components/ScratchGame";
 import LetterScreen from "./components/LetterScreen";
 import type { ScreenId } from "./types";
+import LoveLetters from "./components/LoveLetters";
 
 export default function App() {
   const [screen, setScreen] = useState<ScreenId>("home");
@@ -17,6 +18,7 @@ export default function App() {
     wheel: <WheelGame />,
     scratch: <ScratchGame />,
     letter: <LetterScreen />,
+    letters: <LoveLetters />,
   };
 
   return (
